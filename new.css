@@ -1,0 +1,68 @@
+/* Estilos para el corazón */
+.heart {
+  text-align: center;
+  color: red; /* Cambiar color del texto "Te Quiero" a rojo */
+}
+
+/* Estilos para el texto */
+.text {
+  text-align: center;
+  margin-top: 20px;
+}
+/* Reset de márgenes y padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos para el envelope */
+.envelope {
+  position: relative;
+  width: 100%;
+  max-width: 600px; /* Ancho máximo para evitar que se vea muy estirado en pantallas grandes */
+  margin: auto;
+  padding: 20px;
+}
+
+/* Estilos para la carta */
+.letter {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+/* Estilos para el corazón */
+.heart {
+  text-align: center;
+  color: red; /* Cambiar color del texto "Te Quiero" a rojo */
+}
+
+/* Estilos para el texto */
+.text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Estilos para las diferentes secciones de texto */
+.animation-box {
+  overflow: hidden;
+}
+
+.animation-box div {
+  margin-top: 20px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.animation-box div.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Media query para dispositivos móviles */
+@media screen and (max-width: 600px) {
+  .envelope {
+    padding: 10px;
+  }
+}

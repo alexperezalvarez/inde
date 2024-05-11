@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encantado de conocerte</title>
+    <link rel="stylesheet" href="news.css" />
+    <style>
+      /* Estilos adicionales */
+      .heart h1 {
+        color: red; /* Cambia el color del texto a rojo */
+        text-align: center; /* Centra el texto */
+        animation: moveText 4s infinite alternate; /* Animación de movimiento */
+      }
+      .emoji {
+        font-size: 24px;
+        margin-left: 10px;
+      }
+      .animation-box {
+        text-align: center; /* Centra la sección de la animación */
+      }
+
+      .animation-box p {
+        font-family: Arial, sans-serif; /* Cambia la fuente a Arial */
+        font-size: 18px; /* Tamaño de letra 17px */
+        font-style: italic; /* Aplica cursiva */
+      }
+      @keyframes moveText {
+        0% {
+          transform: translateX(-20px); /* Mueve el texto hacia la izquierda */
+        }
+        100% {
+          transform: translateX(20px); /* Mueve el texto hacia la derecha */
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="envelope">
+      <div class="back"></div>
+      <div class="letter">
+        <div class="heart">
+          <h1>
+            <span class="emoji">❤️😘</span> Te Quiero
+            <span class="emoji">❤️😘</span>
+          </h1>
+        </div>
+        <div class="text">
+          <section class="animation-box">
+            <div class="first-text">
+              <p>
+                Me encanta conversar contigo, cada mensaje me alegra el día.
+              </p>
+            </div>
+            <div class="second-text">
+              <p>
+                Descubrir cada detalle de tu personalidad es como abrir un
+                regalo cada vez que hablamos.
+              </p>
+            </div>
+            <div class="third-text">
+              <p>
+                Tu forma de ver la vida me inspira y me llena de energía
+                positiva.
+              </p>
+            </div>
+            <div class="fourth-text">
+              <p>
+                Espero que sigamos conociéndonos y compartiendo momentos
+                especiales juntos.
+              </p>
+            </div>
+            <div class="fifth-text">
+              <p>Siempre estoy agradecido por la oportunidad de conocerte.</p>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div class="front"></div>
+      <div class="top"></div>
+      <div class="shadow"></div>
+      <div class="text1"></div>
+    </div>
+  </body>
+</html>
